@@ -1,0 +1,12 @@
+
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /heritage/https---slsapp.com-git-bv02-heritage-canada-tnt.git/
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /heritage/https---slsapp.com-git-bv02-heritage-canada-tnt.git/index.php [L]
+</IfModule>
+
+# END WordPress
